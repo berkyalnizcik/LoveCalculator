@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="til_margin_horizontal">32dp</dimen>
+    <dimen name="til_text_size">20sp</dimen>
+    <dimen name="btn_go_to_result_margin_horizontal">32dp</dimen>
+    <dimen name="btn_go_to_result_text_size">20sp</dimen>
+</resources>

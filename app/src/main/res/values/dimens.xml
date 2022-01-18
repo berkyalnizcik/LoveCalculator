@@ -10,4 +10,6 @@
     <dimen name="tv_percent_text_size">48sp</dimen>
     <dimen name="tv_result_text_size">28sp</dimen>
     <dimen name="btn_go_to_home_margin_horizontal">32dp</dimen>
+    <dimen name="splash_screen_copyright_bottom_margin">12dp</dimen>
+    <dimen name="splash_screen_copyright_text_size">16sp</dimen>
 </resources>

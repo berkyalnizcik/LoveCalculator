@@ -6,7 +6,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import berk.lovecalculator.R
 import berk.lovecalculator.databinding.FragmentResultBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ResultFragment : BaseFragment<FragmentResultBinding>(FragmentResultBinding::inflate) {
     private val args: ResultFragmentArgs by navArgs()
 

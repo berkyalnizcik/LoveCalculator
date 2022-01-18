@@ -3,4 +3,5 @@
     <string name="til_your_name_hint">Enter Your Name</string>
     <string name="til_partner_name_hint">Enter Your Partner\'s Name</string>
     <string name="btn_go_to_result_text">GET MY RESULT</string>
+    <string name="btn_go_to_home_text">TRY AGAIN</string>
 </resources>

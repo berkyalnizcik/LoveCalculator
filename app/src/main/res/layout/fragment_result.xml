@@ -72,6 +72,7 @@
         android:backgroundTint="@color/btnBackgroundColor"
         android:fontFamily="@font/roboto_medium"
         android:text="@string/btn_go_to_home_text"
+        android:textSize="@dimen/btn_go_to_home_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

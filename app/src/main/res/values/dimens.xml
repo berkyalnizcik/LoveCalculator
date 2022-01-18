@@ -3,13 +3,14 @@
     <dimen name="til_margin_horizontal">32dp</dimen>
     <dimen name="til_text_size">20sp</dimen>
     <dimen name="btn_go_to_result_margin_horizontal">32dp</dimen>
-    <dimen name="btn_go_to_result_text_size">20sp</dimen>
+    <dimen name="btn_go_to_result_text_size">16sp</dimen>
     <dimen name="tv_your_name_text_size">20sp</dimen>
     <dimen name="ic_love_margin">20dp</dimen>
     <dimen name="tv_partner_name_text_size">20sp</dimen>
     <dimen name="tv_percent_text_size">48sp</dimen>
     <dimen name="tv_result_text_size">28sp</dimen>
     <dimen name="btn_go_to_home_margin_horizontal">32dp</dimen>
+    <dimen name="btn_go_to_home_text_size">16sp</dimen>
     <dimen name="splash_screen_copyright_bottom_margin">12dp</dimen>
     <dimen name="splash_screen_copyright_text_size">16sp</dimen>
 </resources>

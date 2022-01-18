@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_regular"
         android:textSize="@dimen/tv_result_text_size"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

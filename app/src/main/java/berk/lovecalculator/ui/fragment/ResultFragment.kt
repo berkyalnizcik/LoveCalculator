@@ -19,7 +19,7 @@ class ResultFragment : BaseFragment<FragmentResultBinding>(FragmentResultBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initUI()
-        onClick()
+        onNavigate()
     }
 
     private fun initUI() {
@@ -29,15 +29,15 @@ class ResultFragment : BaseFragment<FragmentResultBinding>(FragmentResultBinding
         )
         with(binding) {
             viewModel.getResultLiveData.observe(viewLifecycleOwner) { response ->
-                tvPercent.text = response.percentage + "%"
+                (response.percentage + getString(R.string.percentage)).also { tvPercent.text = it }
                 tvResult.text = response.result
-                tvYourName.text = response.fname
-                tvPartnerName.text = response.sname
+                tvYourName.text = response.yourName
+                tvPartnerName.text = response.partnerName
             }
         }
     }
 
-    private fun onClick() {
+    private fun onNavigate() {
         binding.btnGoToHome.setOnClickListener {
             findNavController().navigate(R.id.action_resultFragment_to_homeFragment)
         }

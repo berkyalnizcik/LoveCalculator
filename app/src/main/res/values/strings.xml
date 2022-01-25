@@ -5,4 +5,5 @@
     <string name="btn_go_to_result_text">GET MY RESULT</string>
     <string name="btn_go_to_home_text">TRY AGAIN</string>
     <string name="tv_copyright_text">2022 | Copyright by Berk YALNIZCIK</string>
+    <string name="percentage">%</string>
 </resources>

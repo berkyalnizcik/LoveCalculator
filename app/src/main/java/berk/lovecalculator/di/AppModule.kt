@@ -1,7 +1,7 @@
 package berk.lovecalculator.di
 
+import berk.lovecalculator.BuildConfig
 import berk.lovecalculator.network.ApiService
-import berk.lovecalculator.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -18,7 +18,7 @@ object AppModule {
     @Singleton
     fun provideRetrofitInstance(): ApiService {
         return Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(ApiService::class.java)

@@ -16,15 +16,19 @@ android {
         applicationId "berk.lovecalculator"
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "API_KEY", localProperties['apiKey']
     }
 
     buildTypes {
+        debug {
+            buildConfigField "String", "BASE_URL", "\"https://love-calculator.p.rapidapi.com/\""
+        }
         release {
+            buildConfigField "String", "BASE_URL", "\"https://love-calculator.p.rapidapi.com/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

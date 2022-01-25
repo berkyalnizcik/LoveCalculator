@@ -1,8 +1,8 @@
 <div align="left">
-<div align="center">
-<h1 align="center">LOVE CALCULATOR</h1>
-<img width="175px" src="https://i.ibb.co/BnrCQ5C/ic-launcher-playstore.png"  alt="logo" border="0">
-</div>
+<h1>LOVE CALCULATOR</h1>
+<p>Do you want to know that the person you love will love you the same? True love or just friendship? Our love calculator app will help you find true love.</p>
+<a href='https://play.google.com/store/apps/details?id=berk.lovecalculator'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="240px" target="_blank"/></a>
+
 </br>
 
 ## Libraries and tools 🛠
@@ -35,4 +35,9 @@
 </br>
 <img width="240px" src="https://i.ibb.co/Rg2gJQy/Screenshot-20220118-110356-Love-Calculator.jpg" alt="ResultFragment" border="0">
 </div>
+</br>
+<pre><p>How to get API KEY?
+<a href="https://rapidapi.com/ajith/api/love-calculator/">Api Key Link</a></p>
+<code>2022 | Copyright by Berk YALNIZCIK</code>
+</pre>
 </div>
